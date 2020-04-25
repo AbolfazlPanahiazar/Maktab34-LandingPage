@@ -2,20 +2,18 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: "Poppins";
 }
-
 .container {
     background-image: url(../images/Oval.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 60%;
 }
-
 .main {
     width: 85%;
+    height: 3000px;
 }
 .btn-blue {
     background-color: #432b99;
@@ -26,11 +24,12 @@ body {
 .btn-blue:hover {
     background-color: #835dd6;
 }
-
 .text-blue{
     color: #432b99;
+}
+.text-darkblue{
+    color: #112548;
 } 
-
 .bg-blue {
  background-color: #432b99;
 }
@@ -61,12 +60,6 @@ body {
 /************************************************/
 
 /******** options ********/
-.options {
-    
-}
-.options .option {
-
-}
 .options .option .icon {
     border: 2px solid #432b99;
     border-radius: 15%;
@@ -87,3 +80,10 @@ body {
     border-radius: 0 0 100% 100% / 30%;
 }
 /************************************************/
+
+/******** testimonial ********/
+.testimonial .avatar {
+    width: 100px;
+}
+/************************************************/
+
