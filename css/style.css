@@ -11,8 +11,7 @@ body {
     background-image: url(../images/Oval.png);
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 55%;
-    height: 2000px; /*del*/
+    background-size: 60%;
 }
 
 .main {
@@ -27,6 +26,10 @@ body {
 .btn-blue:hover {
     background-color: #835dd6;
 }
+
+.text-blue{
+    color: #432b99;
+} 
 
 .bg-blue {
  background-color: #432b99;
@@ -46,15 +49,6 @@ body {
 /************************************************/
 
 /******** introduce ********/
-.introduce .texts {
-    width: 40%;
-}
-.introduce .image {
-    width: 55%;
-}
-.introduce .image .city {
-    width: 100%;
-}
 .introduce .image .play {
     width: 17%;
     transition: all 0.3s;
@@ -84,5 +78,12 @@ body {
 }
 .options .option span {
     font-size: 1.3rem;
+}
+/************************************************/
+
+/******** learn ********/
+.leran {
+    background: linear-gradient(0deg, #eae8f5, #ffffff);
+    border-radius: 0 0 100% 100% / 30%;
 }
 /************************************************/
