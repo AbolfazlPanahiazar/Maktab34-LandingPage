@@ -27,6 +27,11 @@ body {
 .btn-blue:hover {
     background-color: #835dd6;
 }
+
+.bg-blue {
+ background-color: #432b99;
+}
+
 /******** navbar ********/
 .menu-item {
     font-size: 0.75rem;
@@ -58,5 +63,26 @@ body {
     width: 20%;
     transition: all 0.3s;
     cursor: pointer;
+}
+/************************************************/
+
+/******** options ********/
+.options {
+    
+}
+.options .option {
+
+}
+.options .option .icon {
+    border: 2px solid #432b99;
+    border-radius: 15%;
+    width: 30%;
+    height: 65px;
+}
+.options .option .icon img{
+    width: 100%;
+}
+.options .option span {
+    font-size: 1.3rem;
 }
 /************************************************/
