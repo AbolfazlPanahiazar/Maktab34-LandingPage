@@ -11,7 +11,8 @@
     <title>Landing Page</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -23,33 +24,34 @@
       </p>
     <![endif]-->
     <div class="container d-flex justify-content-center">
-        <div class="main w-75 mt-4">
+        <div class="main mt-4">
             <nav class="nav d-flex justify-content-end">
-                <div class="menu mr-5">
+                <div data-aos="fade-right" class="menu mr-5">
                     <button class="btn btn-link text-light menu-item">Home</button>
                     <button class="btn btn-link text-light menu-item">About</button>
                     <button class="btn btn-link text-light menu-item">Pricing</button>
                     <button class="btn btn-link text-light menu-item">Contact</button>
                 </div>
-                <div class="sign-buttons">
+                <div data-aos="fade-left" class="sign-buttons">
                     <button class="btn btn-outline-light font-weight-bold text-light sign-in">Sign In</button>
                     <button class="btn btn-dark font-weight-bold sign-up">Sign Up</button>
                 </div>
             </nav>
-            <div class="introduce d-flex justify-content-between mt-5 bg-success">
-                <div class="texts w-50">
+            <div class="introduce d-flex justify-content-between mt-5">
+                <div data-aos="fade-right" class="texts">
                     <div class="title h2">A Guide To <span class="font-weight-bold">Rocky</span></div>
                     <div class="title h2">Mountain Vacations</div>
-                    <p>Lorem ipsse saepe culpa praesentium quisquam sit deserunt repudiandae epraesentium quisquam sit deserunt rx ducimus dolorum neque adipisci quia laborum. Tempore, quia!</p>
+                    <p>Lorem ipsse saepe culpa praesentium quisquam sit deserunt repudquisquam sit deserunt rx ducimus dolorum neque adipisci quia laborum. Tempore, quia!</p>
                     <button class="btn text-light btn-blue font-weight-bold">Get Started</button>
                 </div>
-                <div class="image d-flex justify-content-center align-items-center">
-                    <img class="position-absolute" src="./images/Butt on 2.png " alt="city">
-                    <img class="position-absolute" src="./images/play.png" alt="play">
+                <div data-aos="fade-left" class="image d-flex justify-content-center align-items-center">
+                    <img class="city" src="./images/Button 2.png " alt="city">
+                    <img class="position-absolute play" src="./images/play.png" alt="play">
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/scripts.js"></script>
   </body>
 </html>
