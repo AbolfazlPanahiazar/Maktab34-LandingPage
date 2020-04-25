@@ -13,7 +13,7 @@ body {
 }
 .main {
     width: 85%;
-    height: 3000px;
+    height: 5000px;
 }
 .btn-blue {
     background-color: #432b99;
@@ -84,6 +84,12 @@ body {
 /******** testimonial ********/
 .testimonial .avatar {
     width: 100px;
+}
+/************************************************/
+
+/******** gallery ********/
+.gallery img {
+ width: 105%;
 }
 /************************************************/
 
